@@ -1,0 +1,368 @@
+@font-face {
+  font-family: "BZar";
+  src: url(/fonts/BZar.eot?#) format('embedded-opentype'), url(/fonts/BZar.woff) format('woff'), url(/fonts/BZar.ttf) format('truetype'); }
+@font-face {
+  font-family: "BTitrBold";
+  src: url(/fonts/BTitrBold.eot?#) format('embedded-opentype'), url(/fonts/BTitrBold.woff) format('woff'), url(/fonts/BTitrBold.ttf) format('truetype'); }
+* {margin: 0 auto;}
+  body {
+  	background-color: #EEEEEA;
+  	direction: rtl;
+  	font-family: Tahoma;
+  	font-size: 12px;
+  }
+a {
+	color: #616b76;
+	text-decoration: none;
+}
+  header {
+  	width: 100%;
+  	height: 150px;
+  	background-color: #fff;
+  }
+
+.top {
+	height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+.top ul {
+	margin-right: 150px;
+}
+
+  .top li {
+  	height: 30px;
+	list-style: none;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 30px;
+	border-left: 1px solid #ccc;
+  }
+
+  .top li > a {
+  	padding-right: 10px;
+  }
+
+  .logo img {
+  	margin-right: 150px;
+  	margin-top: 20px
+  }
+
+  .menu ul {
+  	width: 500px;
+	margin-right: 400px;
+	margin-top: -36px;
+	font-size: 25px;
+	font-family: "BTitrBold";
+}
+
+  .menu li {
+	list-style: none;
+	display: inline-block;
+	padding-left: 30px;
+  }
+
+    .menu li:last-child  a {
+	color: #67bd3c;
+  }
+
+  .logo input[type=text]{
+  	width: 297px;
+	height: 25px;
+	margin-right: 922px;
+	margin-top: -32px;
+	display: block;
+  }
+
+  .slideshow {
+  	width: 100%;
+  	height: 430px;
+  }
+
+.free img {
+	display: block;
+	margin: 40px auto 40px auto;
+}
+
+.caption img{
+    display: block;
+	margin: 40px auto 40px auto;
+}
+
+
+  .special {
+  	width: 100%;
+  	height: 100%;
+  	margin-top: 30px;
+  	display: block;
+  }
+
+  .special #title {
+  	border-bottom: 1px solid #ccc;
+  }
+
+  .special #title h2 {
+  	margin-right: 110px;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: Droid Naskh,Tahoma;
+    color: #3e4d5c;
+  }
+
+.special ul {
+	list-style: none;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+
+.special img {
+	margin: 0 auto;
+	display: block;
+	padding-top: 10px;
+}
+
+.special p {
+	text-align: center;
+	font-size: 15px;
+	padding-top: 40px;
+}
+
+.special ul > li {
+	display: inline-block;
+}
+
+ .box {
+  	width: 13%;
+  	height: 250px;
+  	background-color: #fff;
+  	margin-right: 2%;
+  	margin-bottom: 2%;
+  }
+
+  .box:hover {
+  	box-shadow: 0px 0px 15px -3px #000;
+  }
+
+
+
+.contact-us1 {
+  width: 240px;
+  height: 100%;
+  margin-right: 100px;
+  float: right;
+  
+}
+
+.contact-us2 {
+  
+  height: 100%;
+  float: right;
+  margin-right: 1px;
+  
+   
+}
+
+.contact-us3 {
+  width: 100px;
+  height: 100%;
+  float: right;
+  
+}
+
+.contact-us4 {
+  margin-right: 160px;
+  height: 100%;
+  float: right;
+   
+}
+
+.contact-us5{
+    height: 100%;
+    float: right;
+    margin-right: 10px;
+    
+}
+
+
+.paper img{
+    display: block;
+	margin: 40px auto 40px auto;
+}
+
+
+.contact-US1 {
+  width: 240px;
+  height: 100%;
+  margin-right: 100px;
+  float: right;
+  
+}
+
+.contact-US2 {
+  
+  height: 100%;
+  float: right;
+  margin-right: 16px;
+  
+   
+}
+.contact-US3 {
+  width: 100px;
+  height: 100%;
+  float: right;
+  margin-right:10px;
+  
+}
+
+.contact-US4{
+   height: 100%;
+   margin-top:128px;
+   margin-right: 50px; 
+}
+.contact-US5{
+}
+
+
+.contact-US6{
+margin-right: 164px;
+width: 256px;
+height: 100%;
+float: right;
+}
+
+.contact-US7{
+width: 128px;
+float: right;
+margin-right: 6px;
+margin-top: -7px;
+}
+
+.portlet img{
+    display: inline;
+    margin: 40px auto 40px auto;
+    margin-right: 110px;
+
+}
+
+
+
+.contact1{
+  width: 240px;
+  height: 100%;
+  margin-right: 100px;
+  float: right;
+  
+}
+
+.contact2{
+   height: 100%;
+  float: right;
+  margin-right: 20px;
+  
+}
+
+.contact3{
+  width: 100px;
+  height: 100%;
+  float: right;
+}
+
+.contact4{
+  margin-right: 160px;
+  height: 100%;
+  float: right;
+}
+
+.contact5{
+    height: 100%;
+    float: right;
+    margin-right: 10px;
+    
+}
+
+
+.more-height {
+  height: 290px;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+.wrapper {
+  margin-right: 150px;
+  margin-top: 30px;
+}
+
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #313030;
+  float: right;
+  color: #cecece;
+  margin-top: 30px;
+}
+
+.column {
+  width: 24%;
+  float: right;
+}
+
+.column li {
+  color: #428bca;
+  float: right;
+  clear: right;
+  line-height: 21px;
+  list-style: circle;
+}
+
+.column ul {
+  margin-right: 0;
+}
+
+.column ul > li {
+  display: list-item;
+}
+
+.column li:hover {
+  color: #67bd3c;
+}
+
+.column p {
+  text-align: right;
+  padding-top: 0;
+  line-height: 20px;
+}
+
+.row2 {
+  float: right;
+}
+
+.divider {
+  width: 90%;
+  height: 1px;
+  background-color: #eaeaea;
+  margin: 20px auto 20px auto;
+}
+
+.end {
+  width: 100%;
+height: 50px;
+float: left;
+  background-color: #272626;
+}
+
+.end p {
+  padding-top: 10px;
+  color: #cecece;
+  font-weight: normal;
+}
+
+.end img {
+  float: left;
+  padding-left: 15px;
+}
